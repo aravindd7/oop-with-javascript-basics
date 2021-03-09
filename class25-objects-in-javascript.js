@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // Creating a Object
 
 // new or Object.create()
@@ -308,7 +307,7 @@ console.log(typeof(o.x)); // Number
 var s = { x:1, y:1 }.toString();
 console.log(s); // Object
 
-=======
+
 // Creating a Object
 
 // new or Object.create()
@@ -617,5 +616,3 @@ console.log(typeof(o.x)); // Number
 
 var s = { x:1, y:1 }.toString();
 console.log(s); // Object
-
->>>>>>> 5dce278a2e29bbfbec6236e2edfa5cc76881f2c9
