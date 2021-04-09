@@ -6,6 +6,25 @@ function Book(title, pages, isbn) { // {1}
     this.isbn = isbn;
 }
 
+    var book = new Book("My Title", "200", "100");
+
+
+function Car(model, age, colour) { // {2}
+    this.model = model;
+    this.age = age;
+    this.colour = colour;
+
+    this.turnOn = function() {
+        console.log("The " + this.model + " car in turned on");
+    }
+}
+
+    var car = new Car("Ferrari", "2019", "Black")
+
+    car.turnOn() // The Ferrari car in turned on
+
+
+
 Book.prototype.printTitle = function() {
     console.log(this.title);
 };
