@@ -129,3 +129,23 @@ let list11 = [1,2,3,4,5];
 console.log(list11.every(elem => elem < 10)); // True -> all elements is minor than 10
 
 console.log(list11.every(elem => elem < 5)); // False -> 5 is not minor than 5
+
+// includes -> if is what you want in your array
+
+let names = ['Matheus', 'Lucas', 'Joao'];
+
+console.log(names.includes('Lucas')); // output - true
+
+// endsWith
+
+let name = 'Matheus';
+
+console.log(name.endsWith('eus')); // output: true -> Matheus ends with eus
+
+// startsWith
+
+let name = 'Matheus';
+
+console.log(name.startsWith('Mat')); // output: true -> Matheus start with Mat
+
+console.log(name.startsWith('mat')); // output: false -> Matheus start with Mat not mat
